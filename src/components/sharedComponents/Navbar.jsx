@@ -40,11 +40,11 @@ const Navbar = () => {
    <div>
    <ul className="menu menu-horizontal px-1 text-base">
       <li><Link href='/'>Home</Link></li>
-      <li><Link href='/'>Pages</Link></li>
-      <li><Link href='/'>Portfolio</Link></li>
-      <li><Link href='/'>Blogs</Link></li>
-      <li><Link href='/'>Shop</Link></li>
-      <li><Link href='/'>Contacts</Link></li>
+      <li><Link href='/pages'>Pages</Link></li>
+      <li><Link href='/portfolio'>Portfolio</Link></li>
+      <li><Link href='/blogs'>Blogs</Link></li>
+      <li><Link href='/shop'>Shop</Link></li>
+      <li><Link href='/contacts'>Contacts</Link></li>
    
     </ul>
 
