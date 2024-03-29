@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-black px-24 mt-56 text-white'>
-      <footer className="footer p-10 ">
+        <div className='bg-black px-24 mt-56 text-white py-8 '>
+      <footer className="footer p-10 text-base ">
   <nav>
     <h6 className="footer-title">Services</h6> 
     <a className="link link-hover">Branding</a>
@@ -25,7 +25,7 @@ const Footer = () => {
     <a className="link link-hover">Cookie policy</a>
   </nav>
 </footer> 
-<footer className="footer px-10 py-4 border-t border-base-300">
+<footer className="footer px-10  border-t border-base-300 pt-8 pb-5 text-base">
  <h3>AxiomThemes © 2024. All Rights Reserved.
 </h3>
  
