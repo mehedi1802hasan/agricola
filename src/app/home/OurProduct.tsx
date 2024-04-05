@@ -15,7 +15,7 @@ const OurProduct = () => {
         <p className="font-bold text-[#0A1108] text-[12px] mt-4">
           OUR AGRICULTURAL COMPANY
         </p>
-        <p className=" w-[316px] mx-auto  lg:w-[560px] mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
+        <p className=" w-[316px] mx-auto   lg:w-[860px] text-center mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
           <span className=" flex justify-center  ">We’re a World-Leading</span>{" "}
           Provider of Organic Products
         </p>
