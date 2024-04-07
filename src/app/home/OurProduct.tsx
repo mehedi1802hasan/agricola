@@ -15,13 +15,13 @@ const OurProduct = () => {
         <p className="font-bold text-[#0A1108] text-[12px] mt-4">
           OUR AGRICULTURAL COMPANY
         </p>
-        <p className=" w-[316px] mx-auto   lg:w-[860px] text-center mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
+        <p className=" w-[316px] mx-auto   lg:w-[850px] text-center mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
           <span className=" flex justify-center  ">We’re a World-Leading</span>{" "}
           Provider of Organic Products
         </p>
       </div>
       <div className="my-6  flex flex-col lg:flex-row lg:flex justify-center items-center gap-4 lg:gap-6">
-               {/* 1st div */}
+        {/* 1st div */}
 
         <div>
           <Image
@@ -53,7 +53,7 @@ const OurProduct = () => {
             </div>
           </div>
         </div>
-       {/* 2nd div */}
+        {/* 2nd div */}
         <div className="lg:mt-20">
           <Image
             src={gardenTillage}
@@ -61,8 +61,7 @@ const OurProduct = () => {
             className="w-60 h-64 hover:-translate-y-3 duration-700"
           ></Image>
           <div className="my-4">
-            <p className="font-bold text-[18px]">Garden Tillage
-</p>
+            <p className="font-bold text-[18px]">Garden Tillage</p>
             <div className="mt-1">
               <h3 className="flex items-center gap-2  text-[13px]">
                 <span>
@@ -84,19 +83,17 @@ const OurProduct = () => {
               </h3>
             </div>
           </div>
-      
         </div>
 
-               {/* 3rddiv */}
-               <div>
+        {/* 3rddiv */}
+        <div>
           <Image
             src={Vegatables}
             alt="soft-wheat image"
             className="w-60 h-64 hover:-translate-y-3 duration-700"
           ></Image>
           <div className="my-4">
-            <p className="font-bold text-[18px]">Vegatables
-</p>
+            <p className="font-bold text-[18px]">Vegatables</p>
             <div className="mt-1">
               <h3 className="flex items-center gap-2  text-[13px]">
                 <span>
@@ -120,16 +117,15 @@ const OurProduct = () => {
           </div>
         </div>
 
-       {/* 4th div */}
-       <div className="lg:mt-20">
+        {/* 4th div */}
+        <div className="lg:mt-20">
           <Image
             src={FarmLivestock}
             alt="soft-wheat image"
             className="w-60 h-64 hover:-translate-y-3 duration-700"
           ></Image>
           <div className="my-4">
-            <p className="font-bold text-[18px]">Farm Livestock
-</p>
+            <p className="font-bold text-[18px]">Farm Livestock</p>
             <div className="mt-1">
               <h3 className="flex items-center gap-2  text-[13px]">
                 <span>
