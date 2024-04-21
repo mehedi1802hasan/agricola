@@ -9,20 +9,19 @@ import FarmLivestock from "../../assest/FarmLivestock.jpg";
 
 const OurProduct = () => {
   return (
-    <div className="py-14 bg-[#FAF7F0]">
+    <div className="lg:py-20 bg-[#FAF7F0]">
       <div className="flex flex-col justify-center items-center ">
         <Image src={riceicon} className="w-14 h-14" alt="rice icon "></Image>
         <p className="font-bold text-[#0A1108] text-[12px] mt-4">
           OUR AGRICULTURAL COMPANY
         </p>
-        <p className=" w-[316px] mx-auto   lg:w-[850px] text-center mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
+        <p className=" w-[316px] mx-auto lg:w-[850px] text-center mt-2 text-[22px] lg:text-[40px] font-bold  lg:leading-[46px]">
           <span className=" flex justify-center  ">We’re a World-Leading</span>{" "}
           Provider of Organic Products
         </p>
       </div>
       <div className="my-6  flex flex-col lg:flex-row lg:flex justify-center items-center gap-4 lg:gap-6">
         {/* 1st div */}
-
         <div>
           <Image
             src={softWheat}
